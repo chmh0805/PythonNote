@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>192baa7d-9162-4f3d-9075-7879b1bf5a2c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LambdaFunction.py</StartupFile>
+    <StartupFile>ListDemo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <Compile Include="LambdaFunction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ListDemo.py" />
     <Compile Include="PythonNote.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
