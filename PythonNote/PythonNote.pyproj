@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>192baa7d-9162-4f3d-9075-7879b1bf5a2c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Hello World.py</StartupFile>
+    <StartupFile>LambdaFunction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Hello World.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LambdaFunction.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonNote.py" />
